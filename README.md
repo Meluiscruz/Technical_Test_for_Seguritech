@@ -7,7 +7,13 @@
 
 ## Interpretación de los requerimientos
 
-Los requerimientos listados en [problemStatement.pdf](https://github.com/Meluiscruz/Technical_Test_for_Seguritech/blob/master/source_code.ipynb "source_code.ipynb")
+Los requerimientos listados en [problemStatement.pdf](https://github.com/Meluiscruz/Technical_Test_for_Seguritech/blob/master/problemStatement.pdf "problemStatement.pdf") sugieren un acercamiento deductivo y serializado. En otras palabras, no se puede avanzar al siguiente objetivo sin antes haber reuelto los anteriores.
+
+El primer y segundo requerimiento expresan que el dataset debe ser acondicionado para poder desplegar los metadatos propios de un string en formato JSON.
+
+El tercer requerimiento consiste en presentar dos medidas de estadística descriptiva (media y desviación estandar) de tres metadatos, esto es para todas las columnas.
+
+Por último, se requiere presentar las mismas medidas para los mismos metadatos, solo que ahora hay una condición de filtrado implicita, que obliga al desarrollador a tratar con las expresiones más profundas y elementales del esquema JSON.
 
 ## Estrategia de resolución
 
@@ -31,20 +37,17 @@ Estas etapas están subdivididas en 9 secciones, mismas que están comentadas en
 
 ## Tabla de contenido
 
-- [/files](https://github.com/Meluiscruz/Intro_a_Spark/tree/master/files "files"): Directorio que contiene los datasets del proyecto.
-- [/Images](https://github.com/Meluiscruz/Intro_a_Spark/tree/master/Images "Images"): Directorio de imagenes miscelanias, no relevante.
-- [/Notebooks](https://github.com/Meluiscruz/Intro_a_Spark/tree/master/Notebooks "Notebooks"): Es donde habitan los Jupyter Notebooks y archivos html del proyecto.
-  - [/Notebooks/Instrucciones_de_configuracion_y_uso](https://github.com/Meluiscruz/Intro_a_Spark/tree/master/Notebooks/Instrucciones_de_configuracion_y_uso "Instrucciones de config"): El archivo main.html indexa las notas de Cornell relativas a los modulos 1, 2 y 3 del curso. 
- 
-- [/codeExample.py](https://github.com/Meluiscruz/Intro_a_Spark/blob/master/codeExample.py "codeExample.py"): Es un ejemplo de script de pySpark que tiene dos propositos; comprobar la instalación del framework y demostrar lo impractico que es trabajar con scripts de pyspark en ambientes productivos. 
+- [/data_sources](https://github.com/Meluiscruz/Technical_Test_for_Seguritech/tree/master/data_sources "/data_sources"): Directorio que contiene el archivo de trabajo (dataSyntheticMoloch.csv). Este dierectorio tambien contiene un cuaderno de pruebas para la limpieza del dataset (cleaning_dataset.ipynb) y una copia del dataset original (clean_dataSyntheticMoloch.csv).
 
-- [/data.csv](https://github.com/Meluiscruz/Intro_a_Spark/blob/master/data.csv "data.csv"): Dataset de prueba para la verificaci{on de la instalación del framework. 
+- [problemStatement.pdf](https://github.com/Meluiscruz/Technical_Test_for_Seguritech/blob/master/problemStatement.pdf "problemStatement.pdf"): Archivo pdf donde se especifican los requerimientos del proyecto.
+
+- [source_code.ipynb](https://github.com/Meluiscruz/Technical_Test_for_Seguritech/blob/master/source_code.ipynb "source_code.ipynb"): Es el cuaderno (Jupyter Notebook) donde está el desarrollo de la prueba técnica.
 
 ## ¿Qué está pendiente por desarrollar?
 
 - La versión en inglés del Jupyter Notebook principal.
 
-- Un script mejor definido sobre la limpieza del archivo csv original.
+- Un script/cuaderno mejor definido para la automatización de la limpieza del archivo csv original.
 
 - La versión en inglés del README.md.
 
