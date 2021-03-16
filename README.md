@@ -2,8 +2,10 @@
 
 ## Metricas del proyecto
 
-![](https://img.shields.io/github/stars/Meluiscruz/Technical_Test_for_Seguritech.svg) ![](https://img.shields.io/github/forks/Meluiscruz/Technical_Test_for_Seguritech.svg)
-![](https://img.shields.io/github/issues/Meluiscruz/Technical_Test_for_Seguritech.svg)![](https://img.shields.io/github/tag/Meluiscruz/Technical_Test_for_Seguritech.svg)
+![](https://img.shields.io/github/stars/Meluiscruz/Technical_Test_for_Seguritech.svg)
+![](https://img.shields.io/github/forks/Meluiscruz/Technical_Test_for_Seguritech.svg)
+![](https://img.shields.io/github/issues/Meluiscruz/Technical_Test_for_Seguritech.svg)
+![](https://img.shields.io/github/tag/Meluiscruz/Technical_Test_for_Seguritech.svg)
 
 ## Interpretación de los requerimientos
 
